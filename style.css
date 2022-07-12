@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(242, 242, 242);
+}
+
+.banner {
+	background-image: url(imgs/bannerpagoda.png);
+	height: 600px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+main {
+	width: 1050px;
+	margin: auto;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	height: 2rem;
+	text-decoration: none;
+	font-size:1.25rem;
+	height: 4rem;
+	align-items: center;
+}
+
+.navbar a{
+	color:black;
+}
+a {
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+.fondo_azul {
+	background-color: white;
+	display:flex;
+	justify-content: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.fondo_amarillo {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 1rem;
+}
+
+.equipo{
+	margin: 10em;
+}
+
+.imagen_uno{
+	width: 20rem;
+}
+
+.uno{
+	font-size: 1.25rem;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	margin: auto;
+	width:100%;
+	padding: 10px;
+}
+
+
+.dos {
+	background-color: #326A6D;
+	font-size: 1.25rem;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	margin: auto;
+	width:100%;
+	padding: 10px;
+}
+
+
+.tres {
+	font-size: 1.25rem;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	padding-left: 20px;
+	margin-right:400px;
+}
+
+
+
+.titulo_dos{
+	display: flex;
+  justify-content: center;
+}
+
+
+.titulo_tres {
+  display: flex;
+  justify-content: center;
+  color:white;
+}
+
+.parrafo_dos {
+	padding-bottom: 1rem;
+}
+
+
+.boton_descarga {
+	width: 15rem;
+	height: 3rem;
+	background-color: #326A6D;
+	border: none;
+	border-radius: 3px;
+ font-size: 1.1rem;
+ font-weight: bold;
+}
+
+.boton_descarga a{
+	color:white;
+}
+
+h1{
+
+ text-align: center; 
+ font-size: 3rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+	padding-top: 1rem;
+	text-align:center;
+	list-style:none;
+}
+
+li{
+	color:white;
+}
+
+
+
+.video {
+	margin-top: 1rem;
+	width: 30rem;
+	margin-bottom: 1em;
+	height: 15rem;
+ 
+}
+
+.apartado_video {
+	display: flex;
+	justify-content: center;
+}
